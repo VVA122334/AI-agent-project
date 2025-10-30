@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Final project (cleaned CLI-friendly version)
-
-This file is a cleaned-up, minimal version of the Colab-exported script.
-It avoids the third-party `requests` library by using `urllib.request` so
-it can run without installing extra packages. It also replaces `display()`
-calls with `print()` so it runs from the terminal.
+"""Final project 
 """
 
 import os
@@ -30,9 +25,9 @@ else:
 
 
 def latest_news(max_articles: int = 4):
-    """Fetch latest news from NewsAPI using urllib).
+    """ Fetch latest news from NewsAPI using url library.
 
-    Returns a list of articles with keys: title, url, published, image.
+    Returns a list of articles with keys: title, url, published, and image.
     """
     url = (
         f"https://newsapi.org/v2/everything?q=drone+UAV+DGCA&sortBy=publishedAt&apiKey={NEWS_API_KEY}"
@@ -142,3 +137,4 @@ def final():
 
 if __name__ == "__main__":
     final()
+
