@@ -113,7 +113,7 @@ def save_post(post_text: str, article: dict, dest: str = "final_post.json"):
     print(f"{dest} saved successfully")
 
 
-def final():
+def main():
     print("Finding the latest drone news...")
     articles = latest_news()
 
@@ -136,5 +136,6 @@ def final():
 
 
 if __name__ == "__main__":
-    final()
+    main()
+
 
