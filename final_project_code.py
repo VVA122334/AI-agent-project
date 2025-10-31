@@ -17,7 +17,7 @@ except ImportError:
 
 # Read API keys from environment if available; fall back to in-file values
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "d804a787bbd44118afd2d2f466c6ae4a")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "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")
 if OPENAI_AVAILABLE:
     openai.api_key = OPENAI_API_KEY
 else:
@@ -137,5 +137,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
