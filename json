@@ -1,0 +1,5 @@
+{
+  "keywords": ["latest drone news","DGCA drones India"],
+  "max_articles": 3,
+  "platforms": ["linkedin","twitter"]   // optional
+}

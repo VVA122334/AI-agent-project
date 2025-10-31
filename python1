@@ -1,0 +1,3 @@
+url = f"https://newsapi.org/v2/everything?q=drone+UAV+DGCA&sortBy=publishedAt&apiKey={NEWS_API_KEY}"
+    news = requests.get(url).json()
+    
